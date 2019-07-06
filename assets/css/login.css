@@ -1,0 +1,38 @@
+form{
+    background:white;
+    width: 400px;
+    padding: 2rem 0 2rem 0 ;
+    border: solid darkgray 1px;
+      
+    }
+    
+    input{
+         width: 90%;
+         height: 40px;
+         border: 1px solid #cccccc;
+         text-indent: 1rem;
+    
+    
+    }
+    
+    input[type="email"] {
+        border-radius: 6px 6px 0 0;
+    
+    }
+    input[type="password"] {
+        border-radius: 0 0 6px 6px;
+        border-top: none;
+        margin-bottom: 1rem;
+        
+    }
+    
+    button{
+        border-radius: 6px 6px 6px 6px;
+        border: none;
+        font-size: 0.9rem;
+        padding: 0.5rem 1.2rem;
+        background:cadetblue;
+        color: cornsilk;
+        width: 90%;
+    
+    }
